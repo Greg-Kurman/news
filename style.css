@@ -67,7 +67,7 @@ h2 {
 
 h3 {
 	font-size: 16px;
-	color: #9f24f6;
+	color: #c72727;
 	margin: 7px 0;
 }
 
@@ -347,13 +347,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .span,.span1 {
-	float: left;
-	display: inline;
+	display: flex;
+	display: inline-block;
 	
+}
+.inform {
+	font-size: 15px;
 }
 
 .span {
-	width: 220px;
+	width: 300px;
 	margin-right: 10px;
 }
 
